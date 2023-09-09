@@ -33,5 +33,8 @@ class CustomerController extends Controller
 
         return back()->with('customer_reg_success', 'Customer Registration Successfull');
 
+        // return redirect('/');
+
+
     }
 }

@@ -40,5 +40,6 @@ class SellerController extends Controller
 
         return back()->with('seller_reg_success', 'Seller Registration Successfull');
 
+        // return redirect('/');
     }
 }
